@@ -110,6 +110,16 @@ function Stars({ count = 30 }) {
   );
 }
 
+/* ===== LOGO ===== */
+function Logo() {
+  return (
+    <a href="#inicio" className="logo">
+      <span className="logo-symbol">M</span>
+      <span>MENEZES</span>
+    </a>
+  );
+}
+
 /* ===== MARQUEE ===== */
 function Marquee({ items, reverse = false }) {
   return (
@@ -959,9 +969,20 @@ function App() {
         </div>
       </section>
 
+      {/* ===== RODAPÉ ===== */}
+      <footer className="footer">
+        <Logo />
+        <p>
+          © {new Date().getFullYear()} {NAME}.
+        </p>
+      </footer>
+    </div>
+  );
+}
 
 /* ===== INICIALIZAÇÃO DO REACT ===== */
 const root = ReactDOM.createRoot(
   document.getElementById("root")
 );
 root.render(<App />);
+    

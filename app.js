@@ -8,7 +8,7 @@ const INSTAGRAM_URL = "https://www.instagram.com/menezssz_/";
 const PROJECTS = [
   {
     number: "01",
-    title: "Projeto  1",
+    title: "Projeto 1",
     channel: "",
     category: "",
     src: "video1.mp4",
@@ -651,161 +651,158 @@ function App() {
 
         @keyframes fadeDown {
           from { opacity: 0; transform: translateY(-8px); }
-          to { opacity: 
-                    opacity: 1;
-          transform: translateY(0);
-        }
-      }
+          to { opacity: 1; transform: translateY(0); }
+}
 
-      /* CONTATO */
-      .contact {
-        position: relative;
-        padding: 130px 7%;
-        text-align: center;
-        background: radial-gradient(ellipse at center, rgba(115,150,45,.13), transparent 65%);
-      }
+/* CONTATO */
+.contact {
+  position: relative;
+  padding: 130px 7%;
+  text-align: center;
+  background: radial-gradient(ellipse at center, rgba(115,150,45,.13), transparent 65%);
+}
 
-      .contact .grad-h2 {
-        margin: 0 auto 20px;
-        max-width: 800px;
-      }
+.contact .grad-h2 {
+  margin: 0 auto 20px;
+  max-width: 800px;
+}
 
-      .contact .muted {
-        margin: auto;
-      }
+.contact .muted {
+  margin: auto;
+}
 
-      .contact .hero-cta {
-        justify-content: center;
-      }
+.contact .hero-cta {
+  justify-content: center;
+}
 
-      /* RODAPÉ */
-      .footer {
-        padding: 35px 7%;
-        border-top: 1px solid var(--line);
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        gap: 20px;
-      }
+/* RODAPÉ */
+.footer {
+  padding: 35px 7%;
+  border-top: 1px solid var(--line);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
 
-      .footer p {
-        color: var(--muted);
-        font-size: 11px;
-        text-align: right;
-      }
+.footer p {
+  color: var(--muted);
+  font-size: 11px;
+  text-align: right;
+}
 
-      /* ANIMAÇÕES DE REVEAL */
-      .reveal {
-        opacity: 0;
-        transform: translateY(25px);
-        transition: opacity .8s, transform .8s;
-      }
+/* ANIMAÇÕES DE REVEAL */
+.reveal {
+  opacity: 0;
+  transform: translateY(25px);
+  transition: opacity .8s, transform .8s;
+}
 
-      .reveal.show {
-        opacity: 1;
-        transform: translateY(0);
-      }
+.reveal.show {
+  opacity: 1;
+  transform: translateY(0);
+}
 
-      /* CELULAR */
-      @media (max-width: 760px) {
-        .hero {
-          min-height: 680px;
-          padding: 0 22px;
-        }
+/* CELULAR */
+@media (max-width: 760px) {
+  .hero {
+    min-height: 680px;
+    padding: 0 22px;
+  }
 
-        .nav {
-          height: 75px;
-        }
+  .nav {
+    height: 75px;
+  }
 
-        .nav-actions {
-          gap: 13px;
-          font-size: 11px;
-        }
+  .nav-actions {
+    gap: 13px;
+    font-size: 11px;
+  }
 
-        .nav-actions .pill-outline {
-          padding: 10px 13px;
-        }
+  .nav-actions .pill-outline {
+    padding: 10px 13px;
+  }
 
-        .hero-inner {
-          padding-top: 105px;
-        }
+  .hero-inner {
+    padding-top: 105px;
+  }
 
-        .grad-title {
-          font-size: clamp(65px, 17vw, 105px);
-        }
+  .grad-title {
+    font-size: clamp(65px, 17vw, 105px);
+  }
 
-        .projects,
-        .services,
-        .contact {
-          padding-left: 22px;
-          padding-right: 22px;
-        }
+  .projects,
+  .services,
+  .contact {
+    padding-left: 22px;
+    padding-right: 22px;
+  }
 
-        .cards {
-          grid-template-columns: 1fr;
-          gap: 22px;
-        }
+  .cards {
+    grid-template-columns: 1fr;
+    gap: 22px;
+  }
 
-        .logos {
-          margin-bottom: 75px;
-        }
+  .logos {
+    margin-bottom: 75px;
+  }
 
-        .service-button {
-          grid-template-columns: 35px 1fr 25px;
-          gap: 10px;
-        }
+  .service-button {
+    grid-template-columns: 35px 1fr 25px;
+    gap: 10px;
+  }
 
-        .service-detail {
-          padding-left: 45px;
-        }
+  .service-detail {
+    padding-left: 45px;
+  }
 
-        .footer {
-          flex-direction: column;
-          align-items: flex-start;
-        }
+  .footer {
+    flex-direction: column;
+    align-items: flex-start;
+  }
 
-        .footer p {
-          text-align: left;
-        }
-      }
+  .footer p {
+    text-align: left;
+  }
+}
 
-      @media (max-width: 380px) {
-        .nav-actions {
-          gap: 9px;
-          font-size: 10px;
-        }
+@media (max-width: 380px) {
+  .nav-actions {
+    gap: 9px;
+    font-size: 10px;
+  }
 
-        .logo {
-          font-size: 11px;
-        }
+  .logo {
+    font-size: 11px;
+  }
 
-        .logo-symbol {
-          width: 30px;
-          height: 30px;
-        }
+  .logo-symbol {
+    width: 30px;
+    height: 30px;
+  }
 
-        .badge {
-          font-size: 8px;
-          letter-spacing: 1px;
-        }
+  .badge {
+    font-size: 8px;
+    letter-spacing: 1px;
+  }
 
-        .btn-white,
-        .btn-glass {
-          padding: 15px 17px;
-          font-size: 11px;
-        }
-      }
+  .btn-white,
+  .btn-glass {
+    padding: 15px 17px;
+    font-size: 11px;
+  }
+}
 
-      @media (prefers-reduced-motion: reduce) {
-        *,
-        *::before,
-        *::after {
-          animation-duration: .01ms !important;
-          transition-duration: .01ms !important;
-          scroll-behavior: auto !important;
-        }
-      }
-    `}</style>
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: .01ms !important;
+    transition-duration: .01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+`}</style>
 
       {/* ===== HERO ===== */}
       <section className="hero" id="inicio">
@@ -980,9 +977,7 @@ function App() {
   );
 }
 
-/* ===== INICIALIZAÇÃO DO REACT ===== */
 const root = ReactDOM.createRoot(
   document.getElementById("root")
 );
 root.render(<App />);
-    

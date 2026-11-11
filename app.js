@@ -110,16 +110,6 @@ function Stars({ count = 30 }) {
   );
 }
 
-/* ===== LOGO ===== */
-function Logo() {
-  return (
-    <a href="#inicio" className="logo">
-      <span className="logo-symbol"></span>
-      <span></span>
-    </a>
-  );
-}
-
 /* ===== MARQUEE ===== */
 function Marquee({ items, reverse = false }) {
   return (

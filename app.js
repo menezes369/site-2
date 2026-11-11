@@ -114,8 +114,8 @@ function Stars({ count = 30 }) {
 function Logo() {
   return (
     <a href="#inicio" className="logo">
-      <span className="logo-symbol">M</span>
-      <span>MENEZES</span>
+      <span className="logo-symbol"></span>
+      <span></span>
     </a>
   );
 }

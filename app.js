@@ -973,7 +973,7 @@ function App() {
       <footer className="footer">
         <Logo />
         <p>
-          © {new Date().getFullYear()} {NAME}.
+          © {new Date().getFullYear()} {}.
         </p>
       </footer>
     </div>

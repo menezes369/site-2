@@ -959,16 +959,6 @@ function App() {
         </div>
       </section>
 
-      {/* ===== RODAPÉ ===== */}
-      <footer className="footer">
-        <Logo />
-        <p>
-          © {new Date().getFullYear()} {}.
-        </p>
-      </footer>
-    </div>
-  );
-}
 
 /* ===== INICIALIZAÇÃO DO REACT ===== */
 const root = ReactDOM.createRoot(
